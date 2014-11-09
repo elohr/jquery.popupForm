@@ -22,7 +22,7 @@ function PopupForm(element, options) {
 
         closeButton: window.jQuery('<img/>', {
             class: 'popup-form-close-icon',
-            src: 'css/close.png'
+            src: 'http://cdn.getforge.com/elohr.me/1415469529/css/close.png'
         }),
 
         formTitle: window.jQuery('<h3/>'),
@@ -294,10 +294,8 @@ function PopupForm(element, options) {
     return {
         kill: function() {
         },
-        submit: function() {
-        },
-        reset: function() {
-        },
+        submit: s.submit,
+        reset: s.resetForm,
         validate: function() {
         },
         open: s.open,
