@@ -1,6 +1,6 @@
 # Popup Form
 
-jQuery Popup Form takes a regular html form element and converts it into a popup. Open it programmtically, or assign it to an existing link or button. It works on all major browsers (including mobile). You can specify several steps for easier completion. Easily integrate it with external form validation plugins.
+jQuery Popup Form takes a regular html form element, converts it into a popup and converts request into AJAX request. Open it programmtically, or assign it to an existing link or button. It works on all major browsers (including mobile). You can specify up to three steps for easier completion. Easily integrate it with external form validation plugins.
 
 ## Setup
 
