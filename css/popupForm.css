@@ -1,0 +1,173 @@
+.plugin-fade {
+    display: block !important;
+    opacity: 1 !important;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.popup-form {
+    display: none;
+}
+.popup-form-popup {
+    position: absolute;
+    z-index: 901;
+    padding: 24px 32px;
+    min-height: 150px;
+    min-width: 150px;
+    display: none;
+    opacity: 0;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    margin: 0px auto;
+    overflow: hidden;
+
+    border-top: 1px solid #444444;
+    border-left: 1px solid #444444;
+    border-right: 3px solid #444444;
+    border-bottom: 3px solid #444444;
+}
+.popup-form-close-icon {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    cursor: pointer;
+}
+.popup-form-overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(77, 81, 86, 0.7);
+    display: none;
+    z-index: 900;
+}
+form.popup-form {
+    width: 350px;
+    padding: 18px 32px 0px 32px;
+}
+.popup-form-popup h3 {
+    margin: 0px auto 0px auto;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    font-size: 1.3em;
+}
+form.popup-form label {
+    display: block;
+    padding: 4px 0px;
+    margin: 0px auto;
+    font-weight: 300;
+    width: 80%;
+}
+form.popup-form input[type="text"],
+form.popup-form input[type="password"],
+form.popup-form textarea {
+    display: block;
+    width: 80%;
+    padding: 2px 6px;
+    margin: 0px auto 8px auto;
+    position: relative;
+    line-height: 16px;
+    border-radius: 3px;
+    color: #444444;
+    font-size: 0.9em;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow:    inset 0px 1px 3px 0px rgba(0, 0, 0, 0.65);
+    box-shadow:         inset 0px 1px 3px 0px rgba(0, 0, 0, 0.65);
+}
+form.popup-form input[type="text"],
+form.popup-form input[type="password"] {
+    height: 30px;
+}
+form.popup-form textarea {
+    padding: 6px 6px;
+    resize: vertical;
+    max-height: 180px;
+}
+.button-popup-form {
+    display: block;
+    cursor: default;
+    border-radius: 3px;
+    border: 0px;
+}
+.button-popup-form:active {
+    border: 1px solid #FFFFFF;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+.normal-button-popup-form {
+    border: 1px solid #DCDCDC;
+    border-bottom: 3px solid #BBBBBB;
+    color: #444444;
+    padding: 3px 32px;
+    background: #FFFFFF;
+}
+.normal-button-popup-form:active {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    background-color: #FAFAFA;
+}
+.highlight-button-popup-form {
+    margin: 24px auto 12px auto;
+    padding: 5px 32px 3px 32px;
+    border: 1px solid #FFFFFF;
+    border-bottom: 3px solid #30963C;
+    color: #FFFFFF;
+    background: #4DBC5A;
+}
+.highlight-button-popup-form:active {
+    padding: 7px 32px 3px 32px !important;
+    background-color: #47AD53;
+}
+.steps-popup {
+    width: 80%;
+    margin: -4px auto 16px auto;
+    height: 24px;
+    text-align: center;
+}
+.steps-popup div {
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+    border-radius: 12px;
+    margin: 0px 4px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 24px;
+    background-color: #AAAAAA;
+}
+.active-step-popup {
+    background-color: #56C6EA !important;
+}
+.steps-container-popup {
+    width: 2000px;
+    margin-left: -32px;
+    overflow: hidden;
+    -webkit-transition: margin 0.20s;
+    -moz-transition: margin 0.20s;
+    -o-transition: margin 0.20s;
+    transition: margin 0.20s;
+}
+.step-one-container-popup,
+.step-two-container-popup,
+.step-three-container-popup {
+    width: 350px;
+    clear: none;
+    float: left;
+    margin: 0px 32px;
+}
+.steps-container-popup button {
+    margin: 16px auto 12px auto;
+}
